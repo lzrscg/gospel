@@ -12,7 +12,7 @@ We live in a new world. With increased global Internet connectivity and a large-
 LZRS has been greatly inspired by some personal friends who have had success building global workforces, as well as the thought leadership of Balaji Srinivasan.
 
 ## In a nutshell
-GOSPEL is targeted at commercial enterprises, particularly those in tech. It has three tenets, each with many implications.
+GOSPEL is targeted at commercial tech enterprises and has three tenets.
 1. **Optimize for global collaboration**
     * Communicate via long-form writing.
     * Execute asynchronously.
@@ -27,14 +27,16 @@ These three tenets work in concert to provide enterprises with certain benefits:
 * **Better talent.** 
   * _The purpose of hiring globally is to access a larger pool of highly skilled labor, not to cut costs._ 
   * Permissionless contributions enable enterprises to tap into the global talent pool without experiencing the significant friction of navigating foreign labor markets.
-  * Contributors can be pseudonymous and are compensated based on merit. This provides opportunities to those excluded from the traditional and allows enterprises to utilized underrated talent.
-  * Global work flows are more flexible and, given the choice, top talent might prefer a workplace that offers one over a workplace that does not.
+  * Contributors can be pseudonymous and are compensated based on merit. This provides opportunities to those excluded from the traditional hiring process and allows enterprises to utilize underrated talent.
+  * Top talent often prefers the flexibility of remote, asynchronous work.
 * **A more robust organization.** 
-  * Global collaboration via long-form written communication extracts specific domain knowledge out of the heads of individuals and small teams and places it into version control. 
+  * Long-form written communication extracts important information out of the heads of individuals and small teams, and places it into version control. 
   * Problems are often detected earlier in open source projects because there are more eyes on them.
   * Optimizing for permissionless contributions makes it easier to replace lost personelle.
 * **Becoming a nexus of industry.**
-  * Making source code, internal communications, and business strategy public builds good will among customers and the community.
+  * Transparency builds good will among customers and the community.
   * Sharing implementation and execution details attracts talent when they are trying to learn.
   * An enterprise is constantly creating internal content, but wasting valuable opportunities to use it for content marketing due to unnecessary confidentiality.
 * **The potentional to attain "workforce autoscaling"; by simply paying more, a workforce can be blitzscaled with few bottlenecks.**
+
+<!-- ## How to implement -->
