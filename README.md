@@ -39,4 +39,26 @@ These three tenets work in concert to provide enterprises with certain benefits:
   * An enterprise is constantly creating internal content, but wasting valuable opportunities to use it for content marketing due to unnecessary confidentiality.
 * **The potentional to attain "workforce autoscaling"; by simply paying more, a workforce can be blitzscaled with few bottlenecks.**
 
-<!-- ## How to implement -->
+## The playbook
+
+This playbook is for tech company operators. It expores specific considations that must be taken into account when enacting the three tenets.
+
+### Levels of contribution
+Permissionless contributions come in at least three levels.
+1. **Task delegation**
+    * A contributor completes a task according to its specification.
+    * _Example:_ adding a well-specified feature to an app.
+2. **(Technical) product management**
+    * A contributor specifies a task guided by a strategy.
+    * _Example:_ designing the specification for the feature mentioned above.
+3. **Strategy**
+    * A contributor lays out the direction that guides another strategy or the specification of a task. This can be at an arbitrarily high level. There can be a strategy that guides a sub-strategy that inspires a feature specification. 
+    * _Example:_ creating the roadmap that indicates the need for the feature specification mentioned above.
+
+As the levels increase, the operator's mindset must change from that of a bureaucratic manager to that of an asset allocator. The operator has capital to spend and must invest in a portfolio of features and strategies, each with their own execution risk. 
+
+This playbook is built from real experience, therefore it primarily discusses level 1 contributions. However, one goal of GOSPEL is to explore these higher-order contributions. If you have experience with this, please consider contributing your findings.
+
+<!-- ### Decide and commit
+Enacting this playbook is -->
+
