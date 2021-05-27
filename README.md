@@ -59,6 +59,5 @@ As the levels increase, the operator's mindset must change from that of a bureau
 
 This playbook is built from real experience, therefore it primarily discusses level 1 contributions. However, one goal of GOSPEL is to explore these higher-order contributions. If you have experience with this, please consider contributing your findings.
 
-<!-- ### Decide and commit
-Enacting this playbook is -->
-
+### Decide and commit
+The operator enacting this playbook is a pioneer.
