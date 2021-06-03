@@ -43,7 +43,7 @@ These three tenets work in concert to provide enterprises with certain benefits:
 
 This playbook is for **software company** operators. It expores specific considations that must be taken into account when enacting the three tenets.
 
-### 2.1 Levels of contribution
+### 2.1. Levels of contribution
 1. **Task delegation**
     * A contributor completes a task according to its specification.
     * _Example:_ coding a well-specified feature for an app.
@@ -58,7 +58,7 @@ As the levels increase, the operator's mindset must change from that of a bureau
 
 This playbook is built from real experience and not theory. **Due to the experience of the author(s), it only discusses level 1 contributions.** However, GOSPEL believes higher-level contributions are possible and has a mandate to explore them further. If you have experience with this, please consider contributing your findings.
 
-### 2.2 Checklist
+### 2.2. Checklist
 - [ ] **Decide** - is this right for the enterprise? If so, is there any information that cannot be shared publicly? Exclude such information when executing the steps below.
 - [ ] **Commit** - make a pledge to work in an open manner for a meaningful period of time. Contributors will have to learn about your business and existing technology before adding value. Therefore, it is important for them to know that this upfront investment will be useful into the foreseeable future.
 - [ ] **Open the source code** - put code in a public version controlled repository system that allows for third-party contributions, such as Github. Put upcoming features and bug fixes in a public issue tracker so contributors can know what to build. See section 2.3 for more implementation details.
