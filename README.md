@@ -11,9 +11,9 @@ We live in a new world. With increased global Internet connectivity and a large-
 
 LZRS has been greatly inspired by some personal friends who have had success building global workforces, as well as the thought leadership of Balaji Srinivasan.
 
-## In a nutshell
+## 1. In a nutshell
 GOSPEL is targeted at commercial tech enterprises and has three tenets.
-1. **Optimize for global collaboration**
+1. **Run a global organization**
     * Communicate via long-form writing.
     * Execute asynchronously.
 2. **Open source everything**
@@ -39,25 +39,31 @@ These three tenets work in concert to provide enterprises with certain benefits:
   * An enterprise is constantly creating internal content, but wasting valuable opportunities to use it for content marketing due to unnecessary confidentiality.
 * **The potentional to attain "workforce autoscaling"; by simply paying more, a workforce can be blitzscaled with few bottlenecks.**
 
-## The playbook
+## 2. The playbook
 
-This playbook is for tech company operators. It expores specific considations that must be taken into account when enacting the three tenets.
+This playbook is for **software company** operators. It expores specific considations that must be taken into account when enacting the three tenets.
 
-### Levels of contribution
-Permissionless contributions come in at least three levels.
+### 2.1 Levels of contribution
 1. **Task delegation**
     * A contributor completes a task according to its specification.
-    * _Example:_ adding a well-specified feature to an app.
+    * _Example:_ coding a well-specified feature for an app.
 2. **(Technical) product management**
-    * A contributor specifies a task guided by a strategy.
-    * _Example:_ designing the specification for the feature mentioned above.
+    * A contributor specifies a task that must be completed to acheive a strategic goal.
+    * _Example:_ designing the specification for the feature mentioned above in accordance with the roadmap.
 3. **Strategy**
-    * A contributor lays out the direction that guides another strategy or the specification of a task. This can be at an arbitrarily high level. There can be a strategy that guides a sub-strategy that inspires a feature specification. 
+    * A contributor lays out, at a high level, what the company ought to do. 
     * _Example:_ creating the roadmap that indicates the need for the feature specification mentioned above.
 
 As the levels increase, the operator's mindset must change from that of a bureaucratic manager to that of an asset allocator. The operator has capital to spend and must invest in a portfolio of features and strategies, each with their own execution risk. 
 
-This playbook is built from real experience, therefore it primarily discusses level 1 contributions. However, one goal of GOSPEL is to explore these higher-order contributions. If you have experience with this, please consider contributing your findings.
+This playbook is built from real experience and not theory. **Due to the experience of the author(s), it only discusses level 1 contributions.** However, GOSPEL believes higher-level contributions are possible and has a mandate to explore them further. If you have experience with this, please consider contributing your findings.
 
-### Decide and commit
-The operator enacting this playbook is a pioneer.
+### 2.2 Checklist
+- [ ] **Decide** - is this right for the enterprise? If so, is there any information that cannot be shared publicly? Exclude such information when executing the steps below.
+- [ ] **Commit** - make a pledge to work in an open manner for a meaningful period of time. Contributors will have to learn about your business and existing technology before adding value. Therefore, it is important for them to know that this upfront investment will be useful into the foreseeable future.
+- [ ] **Open the source code** - put code in a public version controlled repository system that allows for third-party contributions, such as Github. Put upcoming features and bug fixes in a public issue tracker so contributors can know what to build. See section 2.3 for more implementation details.
+- [ ] **Open the business** - make internal communications, strategy documents, industry research, the internal knowledge base, roadmap etc. public. Operate in the open by publicizing what feature will be worked on next and then show that work being completed in the open source repository.
+- [ ] **Set contribution guidelines** - clearly define best practices. If appropriate: require linting, code formatting, and full unit test coverage. Prefer correctness over individual developer speed (i.e. consider statically typed over dynamically typed lanugages). The project's development speed will increase by decreasing coordination overhead instead of the speeding up individual contributors. Optimze for easy code reviews, not easy contributions.
+- [ ] **Set bounties** - set a value that each upcoming task is worth. Aim for compensation parity with salaried employees. If it would take a salaried employee approximately 1 week full time at $10k per month, pay $2.5k. Operate in good faith, but reject bad submissions and hold contributors to a high standard in accordance with contribution guidelines.
+- [ ] **Drive traffic** - while developing in public, try to bring new developers into the fold. Use the transparency of the enterprise for content marketing and build trust with a community of fans who know the mission (because it is public) and want to be a part of it. Entice them with fair compensation for their labor. There are also several bug bounty listing websites that can generate inbound traffic.
+- [ ] **Retain great contributors** - if a contributor impresses you, put them on payroll as a remote, salaried employee.
