@@ -11,9 +11,9 @@ We live in a new world. With increased global Internet connectivity and a large-
 
 LZRS has been greatly inspired by some personal friends who have had success building global workforces, as well as the thought leadership of Balaji Srinivasan.
 
-## 1. In a nutshell
+## In a nutshell
 GOSPEL is targeted at commercial tech enterprises and has three tenets.
-1. **Run a global organization**
+1. **Operate globally**
     * Communicate via long-form writing.
     * Execute asynchronously.
 2. **Open source everything**
@@ -39,11 +39,10 @@ These three tenets work in concert to provide enterprises with certain benefits:
   * An enterprise is constantly creating internal content, but wasting valuable opportunities to use it for content marketing due to unnecessary confidentiality.
 * **The potentional to attain "workforce autoscaling"; by simply paying more, a workforce can be blitzscaled with few bottlenecks.**
 
-## 2. The playbook
-
+## The playbook
 This playbook is for **software company** operators. It expores specific considations that must be taken into account when enacting the three tenets.
 
-### 2.1. Levels of contribution
+### Levels of contribution
 1. **Task delegation**
     * A contributor completes a task according to its specification.
     * _Example:_ coding a well-specified feature for an app.
@@ -58,12 +57,22 @@ As the levels increase, the operator's mindset must change from that of a bureau
 
 This playbook is built from real experience and not theory. **Due to the experience of the author(s), it only discusses level 1 contributions.** However, GOSPEL believes higher-level contributions are possible and has a mandate to explore them further. If you have experience with this, please consider contributing your findings.
 
-### 2.2. Checklist
-- [ ] **Decide** - is this right for the enterprise? If so, is there any information that cannot be shared publicly? Exclude such information when executing the steps below.
-- [ ] **Commit** - make a pledge to work in an open manner for a meaningful period of time. Contributors will have to learn about your business and existing technology before adding value. Therefore, it is important for them to know that this upfront investment will be useful into the foreseeable future.
-- [ ] **Open the source code** - put code in a public version controlled repository system that allows for third-party contributions, such as Github. Put upcoming features and bug fixes in a public issue tracker so contributors can know what to build. See section 2.3 for more implementation details.
-- [ ] **Open the business** - make internal communications, strategy documents, industry research, the internal knowledge base, roadmap etc. public. Operate in the open by publicizing what feature will be worked on next and then show that work being completed in the open source repository.
+### Decide and commit
+_First, decide._ Is this right for the enterprise? If so, is there any information that cannot be shared publicly? Exclude such information when open sourcing everything.
+
+_Then, commit._ Make a pledge to work in an open manner for a meaningful period of time. Contributors must learn about your business and existing technology before adding value. Therefore, it is important for them to know the time doing so will be a worth investment because the knowledge they acquire about your business will be useful into the foreseeable future.
+
+### Open source everything
+#### The source code
+Put code in a public version controlled repository system that allows for third-party contributions, such as Github. Put upcoming features and bug fixes in a public issue tracker so contributors can know what to build. See section 2.3 for more implementation details.
+
+#### The business
+Make internal communications, strategy documents, industry research, the internal knowledge base, roadmap etc. public. Operate in the open by publicizing what feature will be worked on next and then show that work being completed in the open source repository.
+
+### Accept contributions
 - [ ] **Set contribution guidelines** - clearly define best practices. If appropriate: require linting, code formatting, and full unit test coverage. Prefer correctness over individual developer speed (i.e. consider statically typed over dynamically typed lanugages). The project's development speed will increase by decreasing coordination overhead instead of the speeding up individual contributors. Optimze for easy code reviews, not easy contributions.
 - [ ] **Set bounties** - set a value that each upcoming task is worth. Aim for compensation parity with salaried employees. If it would take a salaried employee approximately 1 week full time at $10k per month, pay $2.5k. Operate in good faith, but reject bad submissions and hold contributors to a high standard in accordance with contribution guidelines.
+
+### Push the gas
 - [ ] **Drive traffic** - while developing in public, try to bring new developers into the fold. Use the transparency of the enterprise for content marketing and build trust with a community of fans who know the mission (because it is public) and want to be a part of it. Entice them with fair compensation for their labor. There are also several bug bounty listing websites that can generate inbound traffic.
 - [ ] **Retain great contributors** - convert impressive contributors to remote, salaried employees.
