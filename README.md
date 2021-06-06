@@ -60,19 +60,51 @@ This playbook is built from real experience and not theory. **Due to the experie
 ### Decide and commit
 _First, decide._ Is this right for the enterprise? If so, is there any information that cannot be shared publicly? Exclude such information when open sourcing everything.
 
-_Then, commit._ Make a pledge to work in an open manner for a meaningful period of time. Contributors must learn about your business and existing technology before adding value. Therefore, it is important for them to know the time doing so will be a worth investment because the knowledge they acquire about your business will be useful into the foreseeable future.
+_Then, commit._ Make a pledge to work in an open manner for a meaningful period of time. Contributors must learn about the business and existing technology before adding value. Therefore, it is important to make them comfortable investing time to learn about the enterprise. They need to be assured that this knowledge they are working to acquire will be useful for many contributions to come.
 
 ### Open source everything
 #### The source code
-Put code in a public version controlled repository system that allows for third-party contributions, such as Github. Put upcoming features and bug fixes in a public issue tracker so contributors can know what to build. See section 2.3 for more implementation details.
+Put code in a public Github repository or use a similar platform. Put upcoming features and bug fixes into a public issue tracker so contributors can know what to build and submit pull requests.
 
 #### The business
-Make internal communications, strategy documents, industry research, the internal knowledge base, roadmap etc. public. Operate in the open by publicizing what feature will be worked on next and then show that work being completed in the open source repository.
+Make business information public. This includes:
+* Internal communications
+* Strategy documents
+* Industry research
+* Internal Knowledge Base
+* Roadmap
 
 ### Accept contributions
-- [ ] **Set contribution guidelines** - clearly define best practices. If appropriate: require linting, code formatting, and full unit test coverage. Prefer correctness over individual developer speed (i.e. consider statically typed over dynamically typed lanugages). The project's development speed will increase by decreasing coordination overhead instead of the speeding up individual contributors. Optimze for easy code reviews, not easy contributions.
-- [ ] **Set bounties** - set a value that each upcoming task is worth. Aim for compensation parity with salaried employees. If it would take a salaried employee approximately 1 week full time at $10k per month, pay $2.5k. Operate in good faith, but reject bad submissions and hold contributors to a high standard in accordance with contribution guidelines.
+#### Establish roles
+* **Technical Lead** The leader responsible for ensuring code quality in a repository or a portion of a repository. The technical lead also assess the difficulty of tasks and sets bounty targets (subject to financial constaints and oversight).
+* **Code Reviewer** A developer that reviews code contributions to see if they should be merged or rejected. This is often the technical lead, but could also be a trusted developer on behalf of the technical lead.
+* **Finance Lead** A person, group of people, or system that sets budgets and has the authority to approve or reject spending on code contributions. The finance lead should have minimal involvement and give the technical lead as much autonomy as possible.
 
-### Push the gas
-- [ ] **Drive traffic** - while developing in public, try to bring new developers into the fold. Use the transparency of the enterprise for content marketing and build trust with a community of fans who know the mission (because it is public) and want to be a part of it. Entice them with fair compensation for their labor. There are also several bug bounty listing websites that can generate inbound traffic.
-- [ ] **Retain great contributors** - convert impressive contributors to remote, salaried employees.
+#### Set contribution guidelines
+Clearly define best practices. If appropriate: require linting, code formatting, and full unit test coverage. Prefer correctness over individual developer speed (i.e. consider statically typed over dynamically typed lanugages). The project's development speed will increase by decreasing coordination overhead instead of the speeding up individual contributors. Optimze for easy code reviews, not easy contributions.
+
+Document architecture decisions. This allows contributors to get a better idea of which approach they should take.
+
+#### Set bounties
+Set a value that each upcoming task is worth. Aim for compensation parity with salaried employees. If a task would take a median salaried employee approximately 1 week full-time at $10k per month, pay $2.5k.
+
+If nobody is fulfilling a given task, raise the bounty. However, this is assuming that enough capable developers have seen it. If they have not, then try driving more traffic to it (see Traffic Strategies).
+
+#### Be firm yet compassionate
+Operate in good faith, but reject bad submissions swiftly and hold contributors to a high standard in accordance with contribution guidelines.
+
+A contributor's best effor may not be good enough. For example, a junior engineer may submit unreadable code or not notice a certain class of bug. The code reviewer must quickly reject this contribution and the contributor must not get paid. Ideally, the code reviewer will be able to point to where the submission can be improved, but this can be a time-intensive exercise and therefore must be done at the discretion of the code reviewer.
+
+The onus is on the contributor to find a way to add value given that all information is available. The contributor might need to spend time studying the enterprise's codebase and operations more in-depth, attempting to make contributions along the way, and earning trust before getting a contribution accepted.
+
+With that said, the enterprise must operate in good faith. Good contributions ought to be rewarded in a timely manner and opportunities to contribute must be as plentiful as the enterprise can afford. Further, providing feedback to genuine contributors is a great way of building a more robust community of developers.
+
+### Traffic Strategies
+while developing in public, try to bring new developers into the fold. Transparency is a compentitve advantage. Use public information as content marketing and build trust with a community of fans who know the mission and want to be a part of it. Entice them with fair compensation for their labor.
+
+Content is king online. Turn business and architectural decisions into blogposts. Show your work. Build a community around people who care about the enterprise, its mission, and each other. Adopt the spirit of a community-oriented project that everyone has an opportunity to profit from if they are able to add value.
+
+There are also several bug bounty listing websites that can generate inbound traffic. More on traffic generatorion in a later section.
+
+### Retain great contributors
+Convert impressive contributors to remote, salaried employees. Aim for pay parity if they worked full-time as a permissionless contributor. Attempt to always raise the bar when deciding who to put on salary. The best hire is someone who is able and willing to do code reviews and act as a technical lead. This is a force multiplier and typically deserves extra pay. However, even if certain contributors do not wish to interact with the community, it is valuable to reserve 100% of their time by putting them on salary.
