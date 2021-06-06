@@ -71,7 +71,7 @@ Make business information public. This includes:
 * Internal communications
 * Strategy documents
 * Industry research
-* Internal Knowledge Base
+* Internal knowledge base
 * Roadmap
 
 ### Accept contributions
@@ -108,3 +108,80 @@ There are also several bug bounty listing websites that can generate inbound tra
 
 ### Retain great contributors
 Convert impressive contributors to remote, salaried employees. Aim for pay parity if they worked full-time as a permissionless contributor. Attempt to always raise the bar when deciding who to put on salary. The best hire is someone who is able and willing to do code reviews and act as a technical lead. This is a force multiplier and typically deserves extra pay. However, even if certain contributors do not wish to interact with the community, it is valuable to reserve 100% of their time by putting them on salary.
+
+## FAQ
+
+### What technologies are recommended?
+**Bold** are technologies used by GOSPEL. Recommendation does not mean it is the best, only that it does the job well.
+
+#### Verison control for source code:
+* **GitHub - most popular platform**
+* GitLab - self-hosted options, leader in remote work
+* SourceHut - free open source software
+
+#### Public documentaion
+Ideally, all business information would be stored in local text files and tracked in Git. However, the tooling around this is simply not always up to par.
+* **GitHub Wiki - Git-based, highly GitHub-integrated**
+* HackMD - many features, GitHub-integrated
+* Notion - most popular platform
+* Obsidian - local, markdown-based
+
+#### Public issue tracker
+Currently, it is recommended to use the issue tracker integrated with the chosen version control provider. Ideally, this would also be local data that could be stored directly into version control, however, there are no known good options for this at this time. If you know a good option for this, please submit your suggestion.
+
+#### Internal communications
+* Discord - most popular for online communities
+* Discourse - forum instead of real-time messaging, open source
+* Slack (configured to be public) - most popular among tech companies
+
+### Isn't outsourced labor low quality?
+Not necessarily. There are untalented developers in every country. Some countries may have less capable developers on average than others. However, there are more talented developers, in total, in the global market than in any given country.
+
+Thank about it from a Baysean persepctive. A random developer in country X country may likely be more talented than a random developer globally. But any given talented developer is most likely not from country X.
+
+It is difficult to find talent abroad. However, open source permissionless work attracts developers around the world so traditional recuritment efforts are unnecessary.
+
+### Isn't it hard to manage so many low quality pull requests?
+This can be challenging, but if a company operates in good faith and holds a **clearly communicated** high-standard, this should not be a problem.
+
+### How is one supposed to work with foreign developers that have poor English?
+Operators should not tolerate poor communication. Contributors should know English to a near-native proficiency. With that said, there isn't much need for realtime listening/speaking, only reading/writing.
+
+It can be an advantage for multilingual operators to hire non-English speakers, but beware of creating language-based siloes. It is best for everyone to be able to communicate well with each other.
+
+### Isn't asynchronous work hard?
+If asynchronous work is hard, then learn to write better. Writing helps to fully think through ideas and thoroughly communicate them. Synchronous communication does not scale, while asynchronous does.
+
+Example of large systems relying on asynchronous/written work:
+* Amazon 6-page memos
+* Scientific research and peer review
+* Legal systems
+<!-- * Stock markets -->
+
+### What if bounties don't work?
+Many people are skeptical of whether developers will work for bounties. However, even without many contributions there are considerable benefits.
+1. Building a community that trusts the enterprise and values its mission
+2. Writing down ideas to think through them more clearly
+3. Flexible work arrangements that can accomodate a larger pool of traditionally acquired talent
+
+Contributors are not going to replace the operators. Operators must continue building the company whether or not they are getting contributions. With time, contributions will come.
+
+### Don't open source projects already do this?
+Yes, open source projects have had to fully lean into the powers of the Internet to turn altruism into code. Enterprises have an advantage in that they can provide sizable amounts of monetary compensation in exchange for contributions. Unforuntately, most enterprises are stuck spending that money on the pre-Internet employment model. GOSPEL is for enterprises (with money) that want to use Internet-native techniques (developed by open source projects) to scale much better.
+
+### Don't crpytocurrency projects already do this?
+Yes, many cryptocurrency companies are enterprise/open source hybrids. However, non-cryptocurrency companies can do this too.
+
+### Can't competitors copy open source code?
+There are legitimate reasons that code should be private. However, consider the following. There are two types of moats:
+1. Having better technology
+2. Having a brand and community
+
+Many people are so worried about moat 1 that they will not take actions that boost moat 2. Ironically, often times moat 2 is more important. However, it is a case-by-case basis.
+
+Certain code bases such as websites are easily copyable in the first place and need not be kept private under almost any circumstances. AS a last resort, intellectual property can help protect the codebase from bad actors.
+
+### Are there any examples of companies open sourcing security-sensitive code?
+1. Signal has open sourced their server implementation
+2. Mullvad has opened source a ton of code, including backend infrastructure code
+3. Wordpress is open source. Many businesses run the same open source code with minimal modifications (and most modifications are not security enhancements).
