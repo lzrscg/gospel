@@ -169,7 +169,7 @@ Contributors are not going to replace the operators. Operators must continue bui
 ### Don't open source projects already do this?
 Yes, open source projects have had to fully lean into the powers of the Internet to turn altruism into code. Enterprises have an advantage in that they can provide sizable amounts of monetary compensation in exchange for contributions. Unforuntately, most enterprises are stuck spending that money on the pre-Internet employment model. GOSPEL is for enterprises (with money) that want to use Internet-native techniques (developed by open source projects) to scale much better.
 
-### Don't crpytocurrency projects already do this?
+### Don't cryptocurrency projects already do this?
 Yes, many cryptocurrency companies are enterprise/open source hybrids. However, non-cryptocurrency companies can do this too.
 
 ### Can't competitors copy open source code?
