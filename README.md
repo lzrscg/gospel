@@ -66,9 +66,9 @@ _Then, commit._ Make a pledge to work in an open manner for a meaningful period 
 #### The source code
 Put code in a public Github repository or use a similar platform. Put upcoming features and bug fixes into a public issue tracker so contributors can know what to build and submit pull requests.
 
-Frontend end application almost always can be made open source. The reason is that you must design them assuming they are running on an untrusted machine. Backend applications should be open sourced with caution. An application built with best practices will be fine, but be sure you are not committing any secrets into version control.
+Frontend applications almost always can be made open source. The reason is that you must design them assuming they are running on untrusted machines. Backend applications should be open sourced with caution. An application built with best practices will be fine, but be sure you are not committing any secrets into version control.
 
-Generally speaking, the more that can be put in the 
+Generally speaking, the more that can be put into version control the better. While there is no particular guidance for infrastructure as code, it is worth exploring how to incorproate securely into an open source codebase.
 
 #### The business
 Make business information public. This includes:
