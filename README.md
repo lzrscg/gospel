@@ -66,6 +66,10 @@ _Then, commit._ Make a pledge to work in an open manner for a meaningful period 
 #### The source code
 Put code in a public Github repository or use a similar platform. Put upcoming features and bug fixes into a public issue tracker so contributors can know what to build and submit pull requests.
 
+Frontend end application almost always can be made open source. The reason is that you must design them assuming they are running on an untrusted machine. Backend applications should be open sourced with caution. An application built with best practices will be fine, but be sure you are not committing any secrets into version control.
+
+Generally speaking, the more that can be put in the 
+
 #### The business
 Make business information public. This includes:
 * Internal communications
@@ -173,7 +177,9 @@ Yes, open source projects have had to fully lean into the powers of the Internet
 Yes, many cryptocurrency companies are enterprise/open source hybrids. However, non-cryptocurrency companies can do this too.
 
 ### Can't competitors copy open source code?
-There are legitimate reasons that code should be private. However, consider the following. There are two types of moats:
+There are legitimate reasons that code should be private. However, consider the following.
+
+There are two types of moats:
 1. Having better technology
 2. Having a brand and community
 
@@ -181,7 +187,8 @@ Many people are so worried about moat 1 that they will not take actions that boo
 
 Certain code bases such as websites are easily copyable in the first place and need not be kept private under almost any circumstances. AS a last resort, intellectual property can help protect the codebase from bad actors.
 
-### Are there any examples of companies open sourcing security-sensitive code?
+### Aren't there security concerns surrounding open sourcing backend code?
+If done imporperly, yes. However, there are many examples of backend code being successfully open sourced.
 1. Signal has open sourced their server implementation
-2. Mullvad has opened source a ton of code, including backend infrastructure code
+2. Mullvad has opene sourced many codebasess, including backend infrastructure code
 3. Wordpress is open source. Many businesses run the same open source code with minimal modifications (and most modifications are not security enhancements).
